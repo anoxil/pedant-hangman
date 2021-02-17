@@ -1,0 +1,101 @@
+.playground {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    @apply bg-white shadow-md rounded-xl;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.game>img {
+    /*min 22/17*/
+    min-width: 440px;
+    min-height: 340px;
+    width: 32%;
+    height: 32%;
+}
+
+.inputZone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endText {
+    margin-top: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.endText>#mysteryWord {
+    color: #009900;
+}
+
+.endText>#link {
+    color: #a0e9a0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.userLetters {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.userLetters>span {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.definition {
+    margin-top: 2em;
+}
+
+.notClickedLetters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.clickedLetters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.rightLetters {
+    display: flex;
+    flex-wrap: wrap;
+    color: #009900;
+}
+
+.wrongLetters {
+    display: flex;
+    flex-wrap: wrap;
+    color: #990000;
+}
+
+.options {
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 5%;
+    @apply gap-3;
+}

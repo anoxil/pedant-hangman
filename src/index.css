@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: honeydew;
+    font-family: monospace;
+    font-size: large;
+}
+
+button {
+    @apply rounded-full bg-gray-100 px-5 py-2;
+    @apply ring-2 ring-green-300;
+}
+
+button:hover {
+    @apply bg-gray-200;
+    @apply ring-green-600;
+}

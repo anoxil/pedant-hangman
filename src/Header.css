@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5em;
+    padding-left: 1em;
+    padding-right: 2.5em;
+    @apply bg-white shadow;
+}
+
+.homeButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @apply gap-2;
+}
+
+.homeButton>img {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.homeButton>span {
+    font-family: 'Tangerine';
+    font-size: 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @apply gap-7;
+}
+
+.hubIcon {
+    max-width: 53px;
+    max-height: 53px;
+    -webkit-transition: -webkit-transform .8s ease-in;
+    transition: transform .8s ease-in;
+}
+
+.hubIcon:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg)
+}
+
+.gitIcon {
+    max-width: 40px;
+    max-height: 40px;
+    -webkit-transition: -webkit-transform .8s ease-in;
+    transition: transform .8s ease-in;
+}
+
+.gitIcon:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg)
+}
