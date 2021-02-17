@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pedant-hangman/static/css/main.3820446d.chunk.css",
+    "main.js": "/pedant-hangman/static/js/main.52807729.chunk.js",
+    "main.js.map": "/pedant-hangman/static/js/main.52807729.chunk.js.map",
+    "runtime-main.js": "/pedant-hangman/static/js/runtime-main.89813486.js",
+    "runtime-main.js.map": "/pedant-hangman/static/js/runtime-main.89813486.js.map",
+    "static/js/2.99838c77.chunk.js": "/pedant-hangman/static/js/2.99838c77.chunk.js",
+    "static/js/2.99838c77.chunk.js.map": "/pedant-hangman/static/js/2.99838c77.chunk.js.map",
+    "index.html": "/pedant-hangman/index.html",
+    "static/css/main.3820446d.chunk.css.map": "/pedant-hangman/static/css/main.3820446d.chunk.css.map",
+    "static/js/2.99838c77.chunk.js.LICENSE.txt": "/pedant-hangman/static/js/2.99838c77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89813486.js",
+    "static/js/2.99838c77.chunk.js",
+    "static/css/main.3820446d.chunk.css",
+    "static/js/main.52807729.chunk.js"
+  ]
+}
