@@ -1,20 +1,36 @@
 {
   "files": {
-    "main.css": "/pedant-hangman/static/css/main.3820446d.chunk.css",
-    "main.js": "/pedant-hangman/static/js/main.52807729.chunk.js",
-    "main.js.map": "/pedant-hangman/static/js/main.52807729.chunk.js.map",
+    "main.css": "/pedant-hangman/static/css/main.4e03b492.chunk.css",
+    "main.js": "/pedant-hangman/static/js/main.2dc8298a.chunk.js",
+    "main.js.map": "/pedant-hangman/static/js/main.2dc8298a.chunk.js.map",
     "runtime-main.js": "/pedant-hangman/static/js/runtime-main.89813486.js",
     "runtime-main.js.map": "/pedant-hangman/static/js/runtime-main.89813486.js.map",
     "static/js/2.99838c77.chunk.js": "/pedant-hangman/static/js/2.99838c77.chunk.js",
     "static/js/2.99838c77.chunk.js.map": "/pedant-hangman/static/js/2.99838c77.chunk.js.map",
     "index.html": "/pedant-hangman/index.html",
-    "static/css/main.3820446d.chunk.css.map": "/pedant-hangman/static/css/main.3820446d.chunk.css.map",
-    "static/js/2.99838c77.chunk.js.LICENSE.txt": "/pedant-hangman/static/js/2.99838c77.chunk.js.LICENSE.txt"
+    "static/css/main.4e03b492.chunk.css.map": "/pedant-hangman/static/css/main.4e03b492.chunk.css.map",
+    "static/js/2.99838c77.chunk.js.LICENSE.txt": "/pedant-hangman/static/js/2.99838c77.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pedant-hangman/static/media/Tangerine-Regular.76cd09ef.ttf",
+    "static/media/hangman0.png": "/pedant-hangman/static/media/hangman0.6423ae98.png",
+    "static/media/hangman1.png": "/pedant-hangman/static/media/hangman1.3a431538.png",
+    "static/media/hangman2.png": "/pedant-hangman/static/media/hangman2.09f4ff6a.png",
+    "static/media/hangman3.png": "/pedant-hangman/static/media/hangman3.52f34cdb.png",
+    "static/media/hangman4.png": "/pedant-hangman/static/media/hangman4.0a3a83b6.png",
+    "static/media/hangman5.png": "/pedant-hangman/static/media/hangman5.60ede4d2.png",
+    "static/media/hangman6.png": "/pedant-hangman/static/media/hangman6.117fdd04.png",
+    "static/media/hangman7.png": "/pedant-hangman/static/media/hangman7.35c3ded8.png",
+    "static/media/hangman8.png": "/pedant-hangman/static/media/hangman8.f5e57285.png",
+    "static/media/hangman9.png": "/pedant-hangman/static/media/hangman9.7bb95cf9.png",
+    "static/media/hangman_throne_0.png": "/pedant-hangman/static/media/hangman_throne_0.67a9873c.png",
+    "static/media/hangman_throne_1.png": "/pedant-hangman/static/media/hangman_throne_1.aa077f2c.png",
+    "static/media/hangman_throne_2.png": "/pedant-hangman/static/media/hangman_throne_2.c1a72b51.png",
+    "static/media/hub_icon.2f2eab9c.png": "/pedant-hangman/static/media/hub_icon.2f2eab9c.png",
+    "static/media/pedantor.d3ca52e6.png": "/pedant-hangman/static/media/pedantor.d3ca52e6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.89813486.js",
     "static/js/2.99838c77.chunk.js",
-    "static/css/main.3820446d.chunk.css",
-    "static/js/main.52807729.chunk.js"
+    "static/css/main.4e03b492.chunk.css",
+    "static/js/main.2dc8298a.chunk.js"
   ]
 }
