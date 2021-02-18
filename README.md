@@ -12,7 +12,7 @@ The Pedant Hangman is not your boring, repetitive, unchallenging hangman. The Pe
 
 React.js, React Router, Tailwind CSS;\
 [Random Words API](https://random-words-api.vercel.app/) which is based on [randomword.com](https://randomword.com/)\
-Managed to deploy to my Github Page with gh-pages (cf. [tutorial](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
+Managed to deploy to my Github Page with gh-pages (cf. [tutorial](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)).
 
 ## Basic create-react-app info
 
