@@ -1,6 +1,6 @@
 # Pedant Hangman
 
-Game available here : [https://anoxil.github.com/pedant-hangman](https://anoxil.github.com/pedant-hangman)
+Game available here : [https://anoxil.github.io/pedant-hangman](https://anoxil.github.io/pedant-hangman)
 
 ## Game info
 
