@@ -3,6 +3,14 @@ import React, { useState, useEffect } from "react"
 import ButtonLetter from "./ButtonLetter.jsx"
 import "./Game.css"
 
+function importHangmenErrors(r) {
+    let images = {};
+    r.keys().map((item, index) => images[index] = r(item).default);
+    // object with key=index & value=image_url
+    return images;
+}
+const hangmenError = importHangmenErrors(require.context('./assets/images/pedantor/', false, /^\.\/hangman[0-9]\.png$/))
+
 export default function Game() {
     const [mysteryWord, setMysteryWord] = useState(null)
     const [userWord, setUserWord] = useState([])
@@ -11,6 +19,7 @@ export default function Game() {
     const [wordDefinition, setWordDefinition] = useState(null)
     const [definitionDisplayed, setDefinitionDisplayed] = useState(false)
     const [nbErrors, setNbErrors] = useState(0)
+
 
     function initEmptyUserWordList(word) {
         let array = []
@@ -111,7 +120,7 @@ export default function Game() {
         <div>
             <div className="playground">
                 <div className="game">
-                    <img src={`${process.env.PUBLIC_URL}/images/pedantor/hangman${nbErrors}.png`} alt={`hangman error n°${nbErrors}`} />
+                    <img src={hangmenError[nbErrors]} alt={`hangman error n°${nbErrors}`} />
                     { // end game text
                         gameState.gameEnded && ((gameState.gameWon) ?
                             <div className="endText">you prevailed. <span id="link" onClick={newGame}>try again?</span></div>

@@ -16,3 +16,8 @@ button:hover {
     @apply bg-gray-200;
     @apply ring-green-600;
 }
+
+@font-face {
+    font-family: 'Tangerine';
+    src: url("assets/tangerine-font/Tangerine-Regular.ttf") format("truetype");
+}

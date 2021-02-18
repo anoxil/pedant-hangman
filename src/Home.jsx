@@ -3,6 +3,15 @@ import { Link } from "react-router-dom"
 
 import "./Home.css"
 
+function importhangmenThrone(r) {
+    let images = {};
+    r.keys().map((item, index) => images[index] = r(item).default);
+    // object with key=index & value=image_url
+    return images;
+}
+const hangmenThrone = importhangmenThrone(require.context('./assets/images/pedantor/', false, /^\.\/hangman_throne_[0-2]\.png$/))
+
+
 export default function Home() {
     const [headPos, setHeadPos] = useState(0)
 
@@ -14,7 +23,7 @@ export default function Home() {
 
     return (
         <div className="menu">
-            <img src={`${process.env.PUBLIC_URL}/images/pedantor/hangman_throne_${headPos}.png`} alt="Hangman" />
+            <img src={hangmenThrone[headPos]} alt="Hangman" />
             <Link to="/play"><button type="button">partake in the festivities</button></Link>
             <p className="taunt"><span className="apostrophe">“</span>How quaint, you yearn to trounce my own self. Sublime, shall we commence? <span className="apostrophe">”</span></p>
         </div >
